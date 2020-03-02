@@ -1,0 +1,26 @@
+truncate table test11
+               *
+ERROR at line 1:
+ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired
+
+
+
+Table truncated.
+
+
+no rows selected
+
+
+	 1
+	 2
+	 3
+	 4
+	 5
+	 6
+	 7
+	 8
+	 9
+	10
+
+10 rows selected.
+
