@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 sqlplus -s <<-! > sql_results.csv 2>&1
-system/nightfall1@xe
+$1
 
 select * from test11;
 
